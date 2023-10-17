@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- JavaScript String slice() -->
+
+</head>
+<body>
+<p id="demon"></p>
+<p id="demon1"></p>
+<p id="demon2"></p>
+<p id="demon3"></p>
+<script>
+    let text = "Sahil, Deepak, Rohit ";
+    let part = text.slice(15,20)
+    document.getElementById("demon").innerHTML=part;
+
+
+    
+    let part1 = text.slice(6)
+    document.getElementById("demon1").innerHTML=part1;
+
+    
+    
+    let part2 = text.slice(-14);
+    document.getElementById("demon2").innerHTML=part2;
+
+
+     
+    let part3 = text.slice(-14, -8)
+    document.getElementById("demon3").innerHTML=part3;
+     
+</script>
+</body>
+</html>

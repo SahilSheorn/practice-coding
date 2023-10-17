@@ -102,6 +102,25 @@ line-height: 37px;
     display: flex;
     padding: 100px 0px 1px 150px;
 }
+/* imgage  */
+.project{
+    position: relative;
+}
+.project .imagg_2{
+    position: absolute;
+    top: 18%; 
+    left: 25%;
+    z-index: -1;
+    height: 37px;
+    width: 185px;
+}
+.project img{
+    position: absolute;  
+    top: 32%; 
+    z-index: -1;
+    height: 47px;
+    width: 300px;
+}
 .project h1{
     font-size: 44px;
     padding-top: 50px;
@@ -180,11 +199,12 @@ line-height: 20px;
     padding-bottom: 80px;
 }
 .pg_page1 p,h2,h3,h4{
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     padding-left: 30px;
 }
 .pg_page1 button{
     margin-left: 30px;
+    margin-top: 20px;
     border-radius: 5px;
     border: 1px solid #FFE492; 
     background-color: white;
@@ -208,7 +228,7 @@ line-height: 20px;
     margin-top: 25px;
     padding-bottom: 20px;
     width: 400px;
-    height: 490px;
+    height: 520px;
 }
 .pg2{
     border: solid;
@@ -219,7 +239,7 @@ line-height: 20px;
     margin-right: 20px;
     padding-top: 50px;
     width: 374px;
-    height: 540px;
+    height: 570px;
 }
 .pg2 h2{
     color: #FFE492;
@@ -379,4 +399,55 @@ line-height: 20px;
     background-color: #043873;
     color: white;
     padding: 130px 10px ;
+}
+.headerr_0 h1,p,img{
+    padding-top: 20px;
+}
+.headerr_0 button{
+    margin: 24px;
+    height: 31px;
+    width: 120px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F9CF9;
+    color: white;
+}
+/* footer  */
+.last_1{
+    background-color: #043873;
+    color: white;
+    padding-bottom: 50px;
+}
+.last_2{
+    display: flex;
+    justify-content: space-around;
+}
+.foott_0{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px ;
+}
+.foott_1{
+    display: flex;
+}
+.foott_1>div{
+    padding-left: 35px;
+}
+.last_2 h4,h3{
+    padding-top: 25px;
+}
+.font_2 p{
+    line-height: 35px;
+}
+.font_1 button{
+    margin: 24px;
+    height: 39px;
+    width: 120px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F9CF9;
+    color: white;
+}
+.font_1 p{
+    font-size: 13px;
 }
